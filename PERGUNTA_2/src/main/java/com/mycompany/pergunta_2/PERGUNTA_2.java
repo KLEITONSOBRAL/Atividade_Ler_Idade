@@ -30,6 +30,7 @@ public class PERGUNTA_2 {
 
         System.out.println(anos + " anos, " + meses + " meses e " + dias + " dias equivalem a " + totalDias +" total de dias.");
 
-               
+       scanner.close();
+             
     }
 }
