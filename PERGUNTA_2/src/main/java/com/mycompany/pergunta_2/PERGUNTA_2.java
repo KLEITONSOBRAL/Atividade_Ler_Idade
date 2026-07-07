@@ -13,19 +13,17 @@ public class PERGUNTA_2 {
 
     public static void main(String[] args) {
         
-        int dias;
-        double meses;
-        int anos;
-        
+        int dias, anos, meses;
+
         Scanner scanner = new Scanner(System.in);
-        
-        System.out.println("Digite a idade em numeros: ");
+
+        System.out.println("Digite a sua idade em números:");
         int idade = scanner.nextInt();
-        
+
         dias = idade * 365;
-        meses = 12 / idade;
-           
-        System.out.println("Voce tem " + idade + " anos, " + dias +" dias e " + meses + " meses ");
+        meses = idade / 12;
+
+        System.out.println("Você tem "+ idade + " anos " + meses + " meses " + dias + " dias");
         
         
     }
